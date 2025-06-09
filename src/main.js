@@ -62,7 +62,6 @@ const onSearchFormSubmit = async event => {
     loader.classList.remove('active');
     console.log(error);
   }
-
 };
 searchForm.addEventListener('submit', onSearchFormSubmit);
 
